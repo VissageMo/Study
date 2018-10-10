@@ -1,7 +1,7 @@
 import numpy as np
 np.random.seed(1337)  # for reproducibility
-from keras.models import Sequential
-from keras.layers import Dense
+from keras.models import Sequential  # create a network by turn
+from keras.layers import Dense  # Dense means full connected layer
 import matplotlib.pyplot as plt
 
 # create some data
